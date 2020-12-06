@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ASM2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./github.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="Github.html">Github</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="Github.html">Overview</a></li>
+                    <li><a href="install.html">Installation</a></li>
+                    <li class="active"><a href="commands.html">Commands</a></li>
+                    <li><a href="conflict.html">Conflict</a></li>
+                    <li><a href="branching.html">Branching</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../Index.html"><span class="glyphicon glyphicon-log-in"></span> Main Assignment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>Basic Git Commands</h1>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-3 text-center">
+        <img src="../images/github_img/commands.PNG" alt=""><br>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <table id="commands">
+                    <tr>
+                        <th><b>Command</b></th>
+                        <th><b>Function</b></th>
+                    </tr>
+                    <tr>
+                        <td><b>git init</b></td>
+                        <td>Creating a new Git repository or creating an existing one. git init is understood as a directory with many subdirectories and sample files in it. When running a new git init on an existing repository, it will not overwrite anything that already exists(GitHub, 2020).</td>
+                    </tr>
+                    <tr>
+                        <td><b>git clone</b></td>
+                        <td>Download a project with all files from the Github to the user computer.</td>
+                    </tr>
+                    <tr>
+                        <td><b>git add</b></td>
+                        <td>Add files into the staging area of ​​Git to track and snapshot of code changes to include them in project history. Each change is referred to as the next snapshot. This staging and committing helps developers manage things without changing the way they write the code (Reshma, 2020).</td>
+                    </tr>
+                    <tr>
+                        <td><b>git pull</b></td>
+                        <td>Update and copy all files from the master branch of remote repository to the local repository.</td>
+                    </tr>
+                    <tr>
+                        <td><b>git commit</b></td>
+                        <td>Record the snapshot to the project’s history to finish the process.</td>
+                    </tr>
+                    <tr>
+                        <td><b>git push</b></td>
+                        <td>Creating a new Git repository or creating an existing one. git init is understood as a directory with many subdirectories and sample files in it. When running a new git init on an existing repository, it will not overwrite anything that already exists(GitHub, 2020).</td>
+                    </tr>
+                    <tr>
+                        <td><b>git config</b></td>
+                        <td>Copyright your code by showing it through author name and email address, so that when you have any action with the joint project, it helps other members know whose part is.</td>
+                    </tr>
+                    <tr>
+                        <td><b>git log</b></td>
+                        <td>This is used as a tool to review or re-read the project's history. In short, git log is a record of commits.</td>
+                    </tr>
+                    <tr>
+                        <td><b>git status</b></td>
+                        <td>Lists the modified but not tracked folders / files to be added to the local repository.</td>
+                    </tr>
+                    <tr>
+                        <td><b>git remote</b></td>
+                        <td>Used to connect the local repository to a remote server so that all members can exchange their changes.</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br>
+        <br>
+        <footer class="container-fluid text-center">
+            <h3>References</h3>
+            <p>Reshma, A 2020, Git Tutorial - Commands And Operations In Git, blog post, 25 Nov, viewed 3 December 2020, "https://www.edureka.co/blog/git-tutorial/".</p>
+            <p>GitHub 2020, What’s a version control system?, company report, GitHub, viewed 3 December 2020, "https://guides.github.com/introduction/git-handbook/#basic-git".</p>
+          </footer>
+
+</body>
+
+</html>

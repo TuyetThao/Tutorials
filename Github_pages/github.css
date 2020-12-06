@@ -1,0 +1,58 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.row p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.row ul li{
+    font-size: 20px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+
+.text-center h2{
+    font-weight: bolder;
+    color: darkblue;
+}
+
+.img-responsive{
+    height: 250px;
+}
+
+footer h3{
+    color: red;
+    font-weight: bolder;
+}
+
+#commands{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#commands td, #commands th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#commands tr:nth-child(even)
+{background-color: #f2f2f2;}
+
+#commands tr:hover {
+    background-color: #ddd;
+}
+
+#commands th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
