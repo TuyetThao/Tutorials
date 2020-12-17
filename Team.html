@@ -20,12 +20,12 @@
 <body>
     <div class="container" id="blur">
         <div id="header"></div>
-        <h1 class="heading">Meet Our Team</h1>
+        <h1 class="heading">Meet Our <b style="color: yellow;">JustGo</b> Team</h1>
 
         <div class="profiles">
 
             <div class="profile">
-                <img src="/images/me.jpg" class="profile-img" onclick="toggle_me()">
+                <img src="/images/me.png" class="profile-img" onclick="toggle_me()">
                 <h3 class="user-name">Thao Huynh</h3>
                 <h5>UI/UX Designer</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aspernatur in voluptates.</p>
@@ -33,27 +33,27 @@
             </div>
 
             <div class="profile">
-                <img src="/images/manager.png" class="profile-img" onclick="toggle_Duy()">
-                <h3 class="user-name">Dr. Duy</h3>
+                <img src="/images/frontend.jpg" class="profile-img" onclick="toggle_Linh()">
+                <h3 class="user-name">Linh Vu</h3>
+                <h5>Frontend Engineer</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aspernatur in voluptates.</p>
+                <button type="button" onclick="toggle_Linh()"><a href="#">Read more</a></button>
+            </div>
+
+            <div class="profile">
+                <img src="/images/backend.PNG" class="profile-img" onclick="toggle_Anna()">
+                <h3 class="user-name">Nguyen Vu</h3>
+                <h5>Backend Engineer</h5>
+                <p>ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aspernatur in voluptates.</p>
+                <button type="button" onclick="toggle_Nguyen()"><a href="#">Read more</a></button>
+            </div>
+
+            <div class="profile">
+                <img src="/images/manager.png" class="profile-img" onclick="toggle_Be()">
+                <h3 class="user-name">Sourabi</h3>
                 <h5>Project Manager</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aspernatur in voluptates.</p>
-                <button type="button" onclick="toggle_Duy()"><a href="#">Read more</a></button>
-            </div>
-
-            <div class="profile">
-                <img src="/images/frontend.png" class="profile-img" onclick="toggle_Anna()">
-                <h3 class="user-name">Dr. Anna</h3>
-                <h5>Frontend Engineer</h5>
-                <p>ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aspernatur in voluptates.</p>
-                <button type="button" onclick="toggle_Anna()"><a href="#">Read more</a></button>
-            </div>
-
-            <div class="profile">
-                <img src="/images/backend.png" class="profile-img" onclick="toggle_Jonathan()">
-                <h3 class="user-name">Dr. Jonathan</h3>
-                <h5>Backend Engineer</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aspernatur in voluptates.</p>
-                <button type="button" onclick="toggle_Jonathan()"><a href="#">Read more</a></button>
+                <button type="button" onclick="toggle_Be()"><a href="#">Read more</a></button>
             </div>
         </div>
     </div>
@@ -65,17 +65,17 @@
     <div class="popup" id="popup2">
         <h2>Project Manager</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat molestiae eaque nostrum, accusamus odit, fugit fugiat omnis quas dignissimos, neque quasi laboriosam minus? Mollitia, dolore illo excepturi tempora a non.</p>
-        <a href="#" onclick="toggle_Duy()">Close</a>
+        <a href="#" onclick="toggle_Be()">Close</a>
     </div>
     <div class="popup" id="popup3">
         <h2>Frontend Engineer</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat molestiae eaque nostrum, accusamus odit, fugit fugiat omnis quas dignissimos, neque quasi laboriosam minus? Mollitia, dolore illo excepturi tempora a non.</p>
-        <a href="#" onclick="toggle_Anna()">Close</a>
+        <a href="#" onclick="toggle_Linh()">Close</a>
     </div>
     <div class="popup" id="popup4">
         <h2>Backend Engineer</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat molestiae eaque nostrum, accusamus odit, fugit fugiat omnis quas dignissimos, neque quasi laboriosam minus? Mollitia, dolore illo excepturi tempora a non.</p>
-        <a href="#" onclick="toggle_Jonathan()">Close</a>
+        <a href="#" onclick="toggle_Nguyen()">Close</a>
     </div>
 
     <script type="text/javascript">
@@ -85,19 +85,19 @@
             var popup1 = document.getElementById('popup1');
             popup1.classList.toggle('active')
         }
-        function toggle_Duy(){
+        function toggle_Be(){
             var blur = document.getElementById('blur');
             blur.classList.toggle('active');
             var popup2 = document.getElementById('popup2');
             popup2.classList.toggle('active')
         }
-        function toggle_Anna(){
+        function toggle_Linh(){
             var blur = document.getElementById('blur');
             blur.classList.toggle('active');
             var popup3 = document.getElementById('popup3');
             popup3.classList.toggle('active')
         }
-        function toggle_Jonathan(){
+        function toggle_Nguyen(){
             var blur = document.getElementById('blur');
             blur.classList.toggle('active');
             var popup4 = document.getElementById('popup4');

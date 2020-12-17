@@ -14,6 +14,8 @@
 
 body{
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/background.jpg);
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .container1 h2{
@@ -25,4 +27,5 @@ body{
 
 .container1 p{
     font-size: 15px;
+    text-align: justify;
 }
